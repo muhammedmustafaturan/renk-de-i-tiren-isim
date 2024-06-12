@@ -1,0 +1,28 @@
+body {
+    background-image: url('npro arka plan.jpg');
+}
+
+h1 {color: rgb(130, 126, 126);}
+
+img{
+    margin-left: 700px;
+    margin-right: auto;
+}
+
+@keyframes color-change {
+    0% {
+      color: rgb(118, 68, 57);
+    }
+  
+    50% {
+      color: rgb(62, 65, 136);
+    }
+  
+    100% {
+      color: rgb(159, 47, 47);
+    }
+}
+
+h1 {
+    animation: color-change 3s infinite;
+}
